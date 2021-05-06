@@ -33,12 +33,19 @@
     background-repeat: no-repeat;
     text-align: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 
+
+
 .main-item{
     color: #fff;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .main-item1{
@@ -57,6 +64,7 @@
     color:#fff;
     padding: 50px 0 30px 100px;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .description-item1{
@@ -69,37 +77,43 @@
     font-size: 30px;
     text-align: center;
     margin: 50px;
+    font-weight: bold;
 }
 
 
 .set{
-   
+    display: flex;
 }
 
 .sets{
-    display: flex;
+    
 
 }
 
 .set-item{
     background-image: url(../img/service1.png);
-    width: 50vw;
+    width: 40vw;
     background-repeat: no-repeat;
     height: 30vh;
     margin: 0 10px 0 100px;
+    background-size: contain;
 }
 
 .set-item1{
     background-image: url(../img/service2.png);
-    width: 50vw;
+    width: 40vw;
     background-repeat: no-repeat;
     height: 30vh;
     margin: 0 100px 0 10px;
+    background-size: contain;
 }
 
+.set1{
+    display: flex;
+}
 
 .sets1{
-    display: flex;
+    
 }
 
 .set-item-list{
@@ -109,35 +123,41 @@
 .set-item1-list-text{
     font-size: 20px;
     font-weight: bold;
+    margin: 10px 0 10px 0;
 }
 
 
 .set-item2-list-text{
     font-weight: bold;
     font-size:20px;
+    margin: 10px 0 10px 0;
 }
 
 .sets2{
-    display: flex;
+    
 
 }
 
 .set-item2{
     background-image: url(../img/service3.png);
-    width: 50vw;
+    width: 40vw;
     height: 30vh;
     margin: 0 10px 0 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .set-item3{
     background-image: url(../img/service4.png);
-    width: 50vw;
+    width: 40vw;
     height: 30vh;
-    margin: 0 10px 0 100px;
+    margin: 0 100px 0 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .sets3{
-    display: flex;
+    
 }
 
 .set-item3-list{
@@ -147,6 +167,7 @@
 .set-item3-list-text{
     font-size:20px;
     font-weight: bold;
+    margin: 10px 0 10px 0;
 }
 
 .set-item3-list-text1{
@@ -160,7 +181,7 @@
 .set-item4-list-text{
     font-size:20px;
     font-weight: bold;
-
+    margin: 10px 0 10px 0;
 }
 
 .set-item4-list-text1{
@@ -234,32 +255,78 @@
 
 .burogu{
     text-align: center;
-    font-size:30px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 70px 0 0 0;
 }
 
 .image{
     display: flex;
 }
 
+.imageset1{
+    margin: 0 10px 0 100px;
+}
+
 .image1{
     background-image: url(../img/blog.png);
-    width: 50vw;
-    height: 30vh;
+    width: 100%;
+    height: 300px;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imageset1-text1{
+    margin: 0 0 10px 0;
+}
+
+.imageset1-text2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.imageset2{
     margin: 0 10px 0 100px;
 }
 
 .image2{
     background-image: url(../img/blog.png);
-    width: 50vw;
-    height: 30vh;
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imageset2-text1{
+    margin: 0 0 10px 0;
+}
+
+.imageset2-text2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.imageset3{
     margin: 0 10px 0 100px;
 }
 
 .image3{
     background-image: url(../img/blog.png);
-    width: 50vw;
-    height: 30vh;
-    margin: 0 10px 0 100px;
+    width: 100%;
+    height: 300px;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imageset3-text1{
+    margin: 0 0 10px 0;
+}
+
+.imageset3-text2{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .service1{
@@ -269,7 +336,7 @@
     border-radius: 0px;
     background: red;
     text-align: center;
-    margin: 100px auto 0;
+    margin: 70px auto 0;
     font-size: 20px;
     font-weight: bold;
 }
@@ -287,6 +354,9 @@
     color:#fff;
     font-size:30px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bg1-item1{
@@ -296,19 +366,29 @@
     color:#fff;
     font-size:30px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact{
     background: #eeeeee;
     text-align:center;
+    margin: 70px 0 0 0;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-item{
-    font-size:30px;
+    font-size:40px;
     font-weight: bold;
 }
 
 .contact-item1{
+    margin: 20px 0 0 0;
+    font-size: 20px;
 
 }
 
@@ -319,7 +399,7 @@
     border-radius: 0px;
     background: red;
     text-align: center;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     font-size: 20px;
     font-weight: bold;
 }
@@ -329,21 +409,52 @@
     background: #000;
     height: 100px;
     width: 100%;
+    font-size: 15px;
 }
 
 .last-items{
     display: flex;
     justify-content:flex-end;
-    font-weight: bold;
     margin-left:430px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
+    color:#fff
 }
 
 .last-item{
-    color:#fff
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.last-items{
-    color:#fff
+.last-item1{
+    border-right: 3px solid;
+}
+
+.last-item2{
+    border-right: 3px solid;
+}
+
+.last-item3{
+    border-right: 3px solid;
+}
+
+.last-item4{
+    border-right: 3px solid;
+}
+
+.last-item5{
+    border-right: 3px solid;
+}
+
+.last-item6{
+    border-right: 3px solid;
+
+}
+
+.last-item7{
+    
 }
