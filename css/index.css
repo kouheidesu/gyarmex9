@@ -86,24 +86,6 @@
     font-weight: bold;
 }
 
-
-.set{
-    display: flex;
-}
-
-.sets{
-    
-
-}
-
-.set-item{
-    background-image: url(../img/service1.png);
-    width: 40vw;
-    background-repeat: no-repeat;
-    height: 15vh;
-   
-    background-size: contain;
-}
 @media screen and (min-width:1440px){
     .set-item{
         margin: 0 10px 0 130px;
@@ -112,122 +94,42 @@
 }
 
 
-.set-item1{
-    background-image: url(../img/service2.png);
-    width: 40vw;
-    background-repeat: no-repeat;
-    height: 15vh;
-    margin: 0 100px 0 10px;
-    background-size: contain;
+.newset1-text{
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+    font-size: 20px;
 }
 
-@media screen and (min-width: 1440px){
-.set-item1 {
-    margin: 0 100px 0 10px;
-    height: 25vh;
+.newset2-text{
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+    font-size: 20px;
 }
+
+.newset3-text{
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+    font-size: 20px;
 }
-.set1{
+
+.newset4-text{
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+}
+
+.newset{
     display: flex;
+    flex-wrap:wrap;
+    list-style: none;
 }
 
-.sets1{
-    
-}
-
-.set-item-list{
-    font-size: 20px;
-}
-
-.set-item1-list-text{
-    font-size: 20px;
-    font-weight: bold;
-    margin: 10px 0 10px 0;
-}
-
-.set-item1-list-text1{
-    font-size: 15px;
+.newset li{
+    width: calc(100%/2);
+    box-sizing:border-box;
 }
 
 
-.set-item2-list-text{
-    font-weight: bold;
-    font-size:20px;
-    margin: 10px 0 10px 0;
-}
-
-.set-item2-list-text1{
-    font-size: 15px;
-}
-
-.sets2{
-    
-
-}
-
-.set-item2{
-    background-image: url(../img/service3.png);
-    width: 40vw;
-    height: 15vh;
-    margin: 0 10px 0 100px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-@media screen and (min-width: 1440px){
-    .set-item2 {
-        margin: 0 10px 0 130px;
-        height: 25vh;
-    }
-    }
-
-.set-item3{
-    background-image: url(../img/service4.png);
-    width: 40vw;
-    height: 15vh;
-    margin: 0 100px 0 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-@media screen and (min-width: 1440px){
-    .set-item3 {
-        margin: 0 100px 0 10px;
-        height: 25vh;
-    }
-    }
-
-.sets3{
-    
-}
-
-.set-item3-list{
-
-}
-
-.set-item3-list-text{
-    font-size:20px;
-    font-weight: bold;
-    margin: 10px 0 10px 0;
-}
-
-.set-item3-list-text1{
-font-size: 15px;
-}
-
-.set-item4-list{
-
-}
-
-.set-item4-list-text{
-    font-size:20px;
-    font-weight: bold;
-    margin: 10px 0 10px 0;
-}
-
-.set-item4-list-text1{
-    font-size: 15px;
-}
 
 .box{
     width: 300px;
@@ -343,11 +245,13 @@ font-size: 15px;
 .top-banner li{
     width: calc(100%/3);
     box-sizing:border-box;
+    margin: 0 100px 0 100px;
 }
 
 .top-banner li img{
     max-width:100%;
     height: auto;
+    margin: 0 100px 0 100px;
 }
 
 .top1{
@@ -355,11 +259,11 @@ font-size: 15px;
 }
 
 .top2{
-    margin: 0 20px 0 0;
+    margin: 0 10px 0 0;
 }
 
 .top3{
-    
+    margin: 0 0 0 10px;
 }
 
 .top-banner-text{
