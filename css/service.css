@@ -1,0 +1,56 @@
+/*事業内容*/
+
+
+
+.image{
+    background-image: url(../img/mv.png);
+    height: 50vh;
+    width: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.image-text{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.contact{
+    background: #eeeeee;
+    text-align:center;
+    margin: 70px 0 0 0;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-item{
+    font-size:40px;
+    font-weight: bold;
+}
+
+.contact-item1{
+    margin: 20px 0 0 0;
+    font-size: 20px;
+
+}
+
+.contact-item2{
+    width: 300px;
+    padding: 20px 0;
+    color: #fff;
+    border-radius: 0px;
+    background: red;
+    text-align: center;
+    margin: 50px auto 0;
+    font-size: 20px;
+    font-weight: bold;
+}
