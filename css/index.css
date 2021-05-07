@@ -240,18 +240,17 @@
     display: flex;
     flex-wrap:wrap;
     list-style: none;
+    margin:0 100px 0 100px;
 }
 
 .top-banner li{
     width: calc(100%/3);
     box-sizing:border-box;
-    margin: 0 100px 0 100px;
 }
 
 .top-banner li img{
     max-width:100%;
     height: auto;
-    margin: 0 100px 0 100px;
 }
 
 .top1{
@@ -263,7 +262,7 @@
 }
 
 .top3{
-    margin: 0 0 0 10px;
+    margin:0 0 0 10px;
 }
 
 .top-banner-text{
