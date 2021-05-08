@@ -1,5 +1,132 @@
 /*採用情報*/
 
+.image{
+    background-image: url(../img/mv.png);
+    height: 270px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-text{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+.main-text{
+    font-size: 40px;
+    border-bottom: 2px solid #000;
+    margin: 100px 150px 0 150px;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+}
+
+.text{
+    font-size: 20px;
+    margin: 30px 150px 30px 150px;
+
+}
+
+.list{
+
+}
+
+.list-text{
+    font-size: 30px;
+}
+
+.list-text span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.list-text{
+    font-size: 30px;
+
+}
+
+.list-text2 span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.list-text3{
+    font-size: 30px;
+}
+
+.list-text3 span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.list-text4{
+    font-size: 30px;
+}
+
+.list-text4 span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.main2-text{
+    font-size: 40px;
+    border-bottom: 2px solid #000;
+    margin: 100px 150px 0 150px;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+}
+
+.text2{
+    font-size: 20px;
+    margin: 30px 150px 30px 150px;
+}
+
+.list2{
+
+}
+
+.list2-text{
+    font-size: 30px;
+}
+
+.list2-text span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.list2-text2{
+    font-size: 30px;
+}
+
+.list2-text2 span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.list2-text3{
+    font-size: 30px;
+}
+
+.list2-text3 span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.list2-text4{
+    font-size: 30px;
+}
+
+.list2-text4 span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
 .contact{
     background: #eeeeee;
     text-align:center;

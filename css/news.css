@@ -1,5 +1,24 @@
 /*ニュース*/
 
+
+.image{
+    background-image: url(../img/mv.png);
+    height: 270px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-text{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
 .contact{
     background: #eeeeee;
     text-align:center;
@@ -8,6 +27,62 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.bg-item1{
+    background-color: #fff;
+    width: auto;
+    height: 300px;
+    margin: 100px 150px 100px 150px;
+    list-style: none;
+}
+
+.bg-items{
+    
+}
+
+.bg-item-1{
+    display: flex;
+    border: solid 2px #000;
+    padding: 30px 0 30px 20px;
+    margin: 0 0 20px 0;
+}
+
+.bg-item-text{
+    font-size: 30px;
+}
+
+.bg-item-text span{
+    font-weight: bold;
+}
+
+.bg-item-2{
+    display: flex;
+    border: solid 2px #000;
+    padding: 30px 0 30px 20px;
+    margin: 0 0 20px 0;
+}
+
+.bg-item-text2{
+    font-size: 30px;
+}
+
+.bg-item-text2 span{
+    font-weight: bold;
+}
+
+.bg-item-3{
+    display: flex;
+    border: solid 2px #000;
+    padding: 30px 0 30px 20px;
+}
+
+.bg-item-text3{
+    font-size: 30px;
+}
+
+.bg-item-text3 span{
+    font-weight: bold;
 }
 
 .contact-item{

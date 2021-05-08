@@ -1,5 +1,118 @@
 /*社員ブログ*/
 
+.image{
+  background-image: url(../img/mv.png);
+  height: 270px;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image-text{
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+.top-banner{
+  display: flex;
+  flex-wrap:wrap;
+  list-style: none;
+  
+  justify-content: space-between;
+}
+
+@media screen and (min-width:1440px){
+  .top-banner{
+      margin:0 100px 0 100px;
+  }
+}
+
+@media screen and (min-width:769px){
+  .top-banner{
+      flex-wrap: wrap;
+      
+  }
+
+.top-banner li{
+  width: 31%;
+  box-sizing:border-box;
+}
+
+.top-banner li img{
+  max-width:100%;
+  height: auto;
+}
+
+.top-banner-text{
+  font-size: 20px;
+  margin: 10px 0 10px 0;
+}
+
+.top-banner-text2{
+  font-size:20px;
+  font-weight:bold;
+  margin: 0 0 20px 0;
+}
+
+.top-banner1-text{
+  font-size: 20px;
+  margin: 10px 0 10px 0;
+}
+
+.top-banner1-text2{
+  font-size:20px;
+  font-weight:bold;
+  margin: 0 0 20px 0;
+}
+
+.top-banner3-text{
+  font-size: 20px;
+  margin: 10px 0 10px 0;
+}
+
+.top-banner3-text2{
+  font-size:20px;
+  font-weight:bold;
+  margin: 0 0 20px 0;
+}
+
+.top-banner4-text{
+  font-size: 20px;
+  margin: 10px 0 10px 0;
+}
+
+.top-banner4-text2{
+  font-size:20px;
+  font-weight:bold;
+}
+
+.top-banner5-text{
+  font-size: 20px;
+  margin: 10px 0 10px 0;
+}
+
+.top-banner5-text2{
+  font-size:20px;
+  font-weight:bold;
+}
+
+.top-banner6-text{
+  font-size: 20px;
+  margin: 10px 0 10px 0;
+}
+
+.top-banner6-text2{
+  font-size:20px;
+  font-weight:bold;
+}
+
+
+
 .contact{
   background: #eeeeee;
   text-align:center;
