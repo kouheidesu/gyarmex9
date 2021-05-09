@@ -274,7 +274,8 @@
     justify-content: space-between;
 }
 
-@media screen and (min-width:1440px){
+
+@media screen and (max-width:1400px){
     .top-banner{
         margin:0 100px 0 100px;
     }
@@ -299,6 +300,7 @@
 .top1{
     
 }
+
 
 .top2{
     
@@ -425,13 +427,13 @@
 
 .last-items{
     display: flex;
-
     display: flex;
-    
     align-items: center;
-    
+    width: 700px;
+    justify-content: space-evenly;
     list-style: none;
     color: #fff;
+    
     
 }
 
