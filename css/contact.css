@@ -126,6 +126,9 @@
 
 input{
     height: 50px;
+    border: solid 1px;
+    border-radius: 10px;
+    opacity: .5;
     width: 100%;
 }
 
@@ -136,7 +139,7 @@ input{
     border-radius: 10px;
     background: #000;
     text-align: center;
-    margin: 30px auto 70px;
+    margin: 40px auto 70px;
     font-size: 20px;
     font-weight: bold;
 }

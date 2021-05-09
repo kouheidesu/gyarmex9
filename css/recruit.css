@@ -57,7 +57,7 @@
 }
 .main-text{
     font-size: 40px;
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
     margin: 100px 150px 0 150px;
     font-weight: bold;
     padding: 0 0 10px 0;
@@ -112,7 +112,7 @@
 
 .main2-text{
     font-size: 40px;
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
     margin: 100px 150px 0 150px;
     font-weight: bold;
     padding: 0 0 10px 0;
