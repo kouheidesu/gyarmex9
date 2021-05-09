@@ -39,11 +39,11 @@
 
 .image{
     background-image: url(../img/mv.png);
-    height: 270px;
+    height: 400px;
     background-repeat: no-repeat;
     text-align: center;
     background-size: cover;
-    background-position: center center;
+    background-position: right 35%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,7 +191,7 @@
 .last{
     display: flex;
     background: #000;
-    height: 100px;
+    height: 80px;
     width: 100%;
     font-size: 15px;
     display: flex;

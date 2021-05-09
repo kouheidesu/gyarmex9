@@ -144,7 +144,7 @@ input{
 .last{
     display: flex;
     background: #000;
-    height: 100px;
+    height: 80px;
     width: 100%;
     font-size: 15px;
     display: flex;
