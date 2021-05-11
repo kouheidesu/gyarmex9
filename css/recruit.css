@@ -69,46 +69,6 @@
 
 }
 
-.list{
-
-}
-
-.list-text{
-    font-size: 30px;
-}
-
-.list-text span{
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.list-text{
-    font-size: 30px;
-
-}
-
-.list-text2 span{
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.list-text3{
-    font-size: 30px;
-}
-
-.list-text3 span{
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.list-text4{
-    font-size: 30px;
-}
-
-.list-text4 span{
-    font-weight: bold;
-    font-size: 30px;
-}
 
 .main2-text{
     font-size: 40px;
@@ -123,61 +83,7 @@
     margin: 30px 150px 30px 150px;
 }
 
-.list2{
 
-}
-
-.list2-text{
-    font-size: 30px;
-}
-
-.list2-text span{
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.list2-text2{
-    font-size: 30px;
-}
-
-.list2-text2 span{
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.list2-text3{
-    font-size: 30px;
-}
-
-.list2-text3 span{
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.list2-text4{
-    font-size: 30px;
-}
-
-.list2-text4 span{
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.tablelist{
-
-}
-
-.newlist{
-
-}
-
-.newlist-text{
-
-}
-
-.newlist-text2{
-    
-}
 
 
 .contact{
@@ -211,6 +117,12 @@
     margin: 50px auto 0;
     font-size: 20px;
     font-weight: bold;
+}
+
+
+.newlist-text2{
+    padding: 10px;
+    margin:0;
 }
 
 .last{
@@ -271,3 +183,31 @@
 .last-item7{
     
 }
+
+.tablelist{
+    display:flex;
+    flex-wrap: wrap;
+    border: 1px groove;
+    margin: 0 150px;
+    
+  }
+  .newlist-text{
+    background: #eeeeee;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    border: 1px groove;
+    padding: 20px;
+    height: 60px;
+  }
+  .newlist-text2{
+    padding: 10px;
+    margin: 0;
+    padding: 20px;
+    height: 60px;
+    border: 1px groove;
+    width: 70%;
+    box-sizing: border-box;
+  }
