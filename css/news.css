@@ -37,6 +37,89 @@
     padding: 10px;
 }
 
+@media screen and (min-width:769px){
+    .dorower{
+        display: none;
+    }
+    }
+    
+    
+    @media screen and (max-width:768px){
+        .header-nav-list{
+            display: none;
+        }
+    }
+    @media screen and (max-width:769px){
+        a{
+            text-decoration: none;
+            color: blue
+          }
+          .nav{
+            position: absolute;
+            height: 4500px;
+            width: 100%;
+            left: -100%;
+            background: #eee;
+            transition: .7s;
+            text-align: center;
+          }
+          .nav ul{
+            padding-top: 80px;
+          }
+          .nav ul li{
+            list-style-type: none;
+            margin-top: 50px;
+          }
+          .menu {
+            display: inline-block;
+            width: 36px;
+            height: 32px;
+            cursor: pointer;
+            position: relative;
+            right: 5%;
+            position: fixed;
+            top: 20px;
+          }
+          .menu__line--top,
+          .menu__line--middle,
+          .menu__line--bottom {
+            display: inline-block;
+            width: 100%;
+            height: 4px;
+            background-color: #000;
+            position: absolute;
+            transition: 0.5s;
+          }
+          .menu__line--top {
+            top: 0;
+          }
+          .menu__line--middle {
+            top: 14px;
+          }
+          .menu__line--bottom {
+            bottom: 0;
+          }
+          .menu.open span:nth-of-type(1) {
+            top: 14px;
+            transform: rotate(45deg);
+          }
+          .menu.open span:nth-of-type(2) {
+            opacity: 0;
+          }
+          .menu.open span:nth-of-type(3) {
+            top: 14px;
+            transform: rotate(-45deg);
+          }
+          .in{
+            transform: translateX(100%);
+          }
+        
+    }
+      
+      
+    /*-------------------header-----------------------------*/
+    
+
 
 .image{
     background-image: url(../img/mv.png);
@@ -144,15 +227,32 @@
     font-weight: bold;
 }
 
+/*---------------------------footer------------------------*/
+
 .last{
     display: flex;
     background: #000;
-    height: 80px;
+    height: 100px;
     width: 100%;
     font-size: 15px;
     display: flex;
     justify-content: space-between;
 }
+
+
+@media screen and (max-width:768px){
+   .last{ 
+    
+    background: #000;
+    height: 200px;
+    font-size: 10px;
+    
+    
+    
+    
+   } 
+}
+
 
 .last-items{
     display: flex;
@@ -164,6 +264,18 @@
     color: #fff;
     
     
+}
+
+@media screen and (max-width:769px){
+    .last-items{
+        width: 50%;
+        list-style: none;
+        line-height: 25px;
+        color: #fff;
+        display: unset;
+        margin: 10px;
+        text-align: center;
+    }
 }
 
 .last-item{

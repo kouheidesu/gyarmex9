@@ -38,6 +38,18 @@
     padding: 10px;
 }
 
+@media screen and (min-width:769px){
+.dorower{
+    display: none;
+}
+}
+
+
+@media screen and (max-width:768px){
+    .header-nav-list{
+        display: none;
+    }
+}
 @media screen and (max-width:769px){
     a{
         text-decoration: none;
@@ -45,7 +57,7 @@
       }
       .nav{
         position: absolute;
-        height: 100vh;
+        height: 4500px;
         width: 100%;
         left: -100%;
         background: #eee;
@@ -65,7 +77,8 @@
         height: 32px;
         cursor: pointer;
         position: relative;
-        left: 700px;
+        right: 5%;
+        position: fixed;
         top: 20px;
       }
       .menu__line--top,
@@ -111,7 +124,7 @@
     
 .main{
     background-image: url(../img/mv.png);
-    height: 50vh;
+    height: 70vh;
     width: auto;
     background-repeat: no-repeat;
     text-align: center;
@@ -135,6 +148,7 @@
     font-size: 20px;
     color: #fff;
     margin: 20px;
+    
 }
 
 .description{
@@ -143,6 +157,15 @@
     text-align:left;
 }
 
+@media screen and (max-width:768px){
+    .description{
+        background: #000;
+        height: 450px;
+        text-align: left; 
+    }
+}
+
+
 .description-item{
     color:#fff;
     padding: 50px 0 30px 100px;
@@ -150,11 +173,32 @@
     font-weight: bold;
 }
 
+@media screen and (max-width:768px){
+    .description-item{
+        color: #fff;
+        padding: 50px 0 30px 30px;
+        font-size: 30px;
+        font-weight: bold;  
+    }
+}
+
 .description-item1{
     color:#fff;
     padding: 0 100px 30px 100px;
     font-size: 20px;
+    line-height: 1.5;
 }
+
+@media screen and (max-width:768px){
+    .description-item1{
+        color: #fff;
+        padding: 0 30px 30px 30px;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+}
+
+
 
 .service{
     font-size: 30px;
@@ -162,8 +206,6 @@
     margin: 50px;
     font-weight: bold;
 }
-
-
 
 
 .newset1-text{
@@ -230,6 +272,48 @@
     margin: 0 0 0 10px;
 }
 
+@media screen and (max-width:768px){
+    .newset{
+        list-style: none;
+        display: unset;
+    }
+}
+
+@media screen and (max-width:768px){
+    .newset li{
+        box-sizing: border-box;
+        width: auto;
+    }
+}
+
+
+
+@media screen and (max-width:768px){
+    .newset1{
+        margin: 0 50px 10px 50px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .newset2{
+        margin: 0 50px 10px 50px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .newset3{
+        margin: 0 50px 10px 50px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .newset4{
+        margin: 0 50px 10px 50px;
+    }
+}
+
+
+
 .box{
     width: 300px;
     padding: 20px 0;
@@ -263,9 +347,18 @@
     font-weight: bold;
 }
 
+@media screen and (max-width:768px){
+    .bg-item-object{
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 65px 0 0 30px;  
+    }
+}
+
 .bg-item-object1{
 
-    width: 200px;
+    width: 160px;
     height: 50px;
     padding: 20px 0;
     color: #fff;
@@ -273,8 +366,14 @@
     background: red;
     text-align: center;
     margin: 50px 0;
-    margin: 50px 100px 10px 0;
+    margin: 50px 30px 10px 0;
     font-weight: bold;
+}
+
+@media screen and (max-width:768px){
+    .bg-item-object1{
+        
+    }
 }
 
 .bg-item-1 span{
@@ -283,6 +382,11 @@
 
 .bg-item-text{
     padding: 15px 0 0 30px;
+}
+@media screen and (max-width:768px){
+    .bg-item-text{
+        padding: 20px 0 0 30px;
+    }
 }
 
 .bg-item-2 span{
@@ -310,6 +414,15 @@
     height: 50px;
     margin: 0 100px 10px;
 }
+
+@media screen and (max-width:768px){
+    .bg-item-1{
+    margin: 0 40px 10px;
+    background-color: #fff;
+    height: 50px;
+    
+    }
+}
 .bg-item-1.span{
     font-weight: bold;
 }
@@ -320,10 +433,26 @@
     margin: 0 100px 10px;
 }
 
+@media screen and (max-width:768px){
+    .bg-item-2{
+    margin: 0 40px 10px;
+    background-color: #fff;
+    height: 50px;
+    }
+}
+
 .bg-item-3{
     background-color: #fff;
     height: 50px;
     margin: 0 100px 10px;
+}
+
+@media screen and (max-width:768px){
+    .bg-item-3{
+    margin: 0 40px 10px;
+    background-color: #fff;
+    height: 50px;
+    }
 }
 
 .burogu{
@@ -336,32 +465,21 @@
 
 
 .top-banner{
-    
-}
-
-
-@media screen and (min-width:1400px){
-    .top-banner{
-        margin:0 100px 0 100px;
-    }
-}
-
-@media screen and (min-width:1000px){
-    .top-banner{
-        display: flex;
+    justify-content: space-between;
+    display: flex;
     flex-wrap:nowrap;
     list-style: none;
     
-    justify-content: space-between;
+}
+
+@media screen and (max-width:768px){
+    .bg-item1{
+        margin: 30px 0 0 0 ;
     }
 }
 
 
-@media screen and (min-width:400px){
-    .top-banner{
-        display: block;
-        margin:0 50px 0;
-    }
+
 
 .top-banner li{
     width: 31%;
@@ -373,18 +491,40 @@
     height: auto;
 }
 
-.top1{
-    
+@media screen and (max-width:768px){
+    .top-banner li{
+        box-sizing: border-box;
+        width: auto;  
+    }
 }
 
 
-.top2{
-    
+@media screen and (max-width:768px){
+    .top-banner{
+        list-style: none;
+        display: unset;
+    }
 }
 
-.top3{
-    
+
+@media screen and (max-width:768px){
+    .top1{
+        margin: 0 50px 10px 50px;
+    }
 }
+
+@media screen and (max-width:768px){
+    .top2{
+        margin: 0 50px 10px 50px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .top3{
+        margin: 0 50px 10px 50px;
+    }
+}
+
 
 .top-banner-text{
     font-size: 20px;
@@ -491,6 +631,8 @@
     font-weight: bold;
 }
 
+/*---------------------------footer------------------------*/
+
 .last{
     display: flex;
     background: #000;
@@ -500,6 +642,21 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+@media screen and (max-width:768px){
+   .last{ 
+    
+    background: #000;
+    height: 200px;
+    font-size: 10px;
+    
+    
+    
+    
+   } 
+}
+
 
 .last-items{
     display: flex;
@@ -511,6 +668,18 @@
     color: #fff;
     
     
+}
+
+@media screen and (max-width:769px){
+    .last-items{
+        width: 50%;
+        list-style: none;
+        line-height: 25px;
+        color: #fff;
+        display: unset;
+        margin: 10px;
+        text-align: center;
+    }
 }
 
 .last-item{
