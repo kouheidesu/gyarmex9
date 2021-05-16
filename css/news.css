@@ -5,6 +5,35 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
+.header-nav-item-link{
+    color:#000000!important;
+}
+
+.bg-item-text{
+    color:#000000!important;
+}
+
+.bg-item-text2{
+    color:#000000!important;
+}
+
+.bg-item-text3{
+    color:#000000!important;
+}
+
+.header-title{
+    color:#000000!important;
+}
+
+
+.last-items li{
+    color:#eeeeee!important;
+}
+
 .header-header{
     background: #fff;
     position: fixed;
@@ -62,6 +91,7 @@
             background: #eee;
             transition: .7s;
             text-align: center;
+            
           }
           .nav ul{
             padding-top: 80px;
@@ -69,6 +99,7 @@
           .nav ul li{
             list-style-type: none;
             margin-top: 50px;
+            
           }
           .menu {
             display: inline-block;
@@ -79,6 +110,7 @@
             right: 5%;
             position: fixed;
             top: 20px;
+            
           }
           .menu__line--top,
           .menu__line--middle,
@@ -167,9 +199,29 @@
     margin: 0 0 20px 0;
 }
 
+@media screen and (max-width:768px){
+    .bg-item1{ 
+        background-color: #fff;
+        width: auto;
+        height: 300px;
+        margin: 100px 40px 100px 40px;
+        list-style: none;
+         
+    } 
+ }
+ 
+
 .bg-item-text{
     font-size: 30px;
 }
+
+@media screen and (max-width:768px){
+    .bg-item-text{ 
+        font-size: 16px;  
+         
+    } 
+ }
+ 
 
 .bg-item-text span{
     font-weight: bold;
@@ -186,6 +238,16 @@
     font-size: 30px;
 }
 
+
+@media screen and (max-width:768px){
+    .bg-item-text2{ 
+        font-size: 16px;  
+         
+    } 
+ }
+ 
+
+
 .bg-item-text2 span{
     font-weight: bold;
 }
@@ -199,6 +261,14 @@
 .bg-item-text3{
     font-size: 30px;
 }
+
+@media screen and (max-width:768px){
+    .bg-item-text3{ 
+        font-size: 16px;  
+         
+    } 
+ }
+ 
 
 .bg-item-text3 span{
     font-weight: bold;

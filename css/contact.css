@@ -5,6 +5,23 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
+.header-nav-item-link{
+    color:#000000!important;
+}
+
+.header-title{
+    color:#000000!important;
+}
+
+
+.last-items li{
+    color:#eeeeee!important;
+}
+
 .header-header{
     background: #fff;
     position: fixed;
@@ -63,6 +80,7 @@
             background: #eee;
             transition: .7s;
             text-align: center;
+            z-index: 999;
           }
           .nav ul{
             padding-top: 80px;
@@ -80,6 +98,7 @@
             right: 5%;
             position: fixed;
             top: 20px;
+            z-index: 999;
           }
           .menu__line--top,
           .menu__line--middle,
@@ -141,8 +160,9 @@
 
 
 
-  
-  
+  .sent input{z-index: 0 !important;
+      
+  }
 
 
 .sent{
@@ -170,6 +190,13 @@
     font-weight: bold;
 }
 
+span{
+    color:red;
+}
+
+
+
+
 .sent3{
     
     margin: 30px 30px 0 30px;
@@ -195,7 +222,7 @@
 }
 
 
-input{
+.sent-text-box{
     height: 50px;
     border: solid 1px;
     border-radius: 10px;
@@ -203,7 +230,36 @@ input{
     width: 100%;
 }
 
-.apply{
+.sent-box{
+    height: 50px;
+    border: solid 1px;
+    border-radius: 10px;
+    opacity: .5;
+    width: 100%;
+}
+
+.sent4 input{
+    height: 200px;
+}
+
+
+
+ .box-main{
+    text-align: center;
+    margin: 50px 0 0 0;
+ }
+
+ .sent-box{
+
+ }
+ 
+ .sent-top{
+     margin: 20px 30px 0 30px;
+ }
+
+
+
+ .sent-box2{
     width: 400px;
     padding: 20px 0;
     color: #fff;
@@ -213,10 +269,10 @@ input{
     margin: 40px auto 70px;
     font-size: 20px;
     font-weight: bold;
-}
+ }
 
-@media screen and (max-width:768px){
-    .apply{ 
+ @media screen and (max-width:768px){
+    .sent-box2{ 
      
         width: 200px;
         padding: 20px 0;
@@ -232,6 +288,7 @@ input{
      
     } 
  }
+
  
 
 /*---------------------------footer------------------------*/

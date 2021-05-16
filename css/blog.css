@@ -4,6 +4,23 @@
   margin: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+}
+
+.header-nav-item-link{
+  color:#000000!important;
+}
+
+.last-items li{
+  color:#eeeeee!important;
+}
+
+.header-title{
+  color:#000000!important;
+}
+
+
 
 .header-header{
   background: #fff;
