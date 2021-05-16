@@ -54,6 +54,8 @@ a{
   padding: 10px;
 }
 
+
+
 @media screen and (min-width:769px){
   .dorower{
       display: none;
@@ -80,6 +82,7 @@ a{
           background: #eee;
           transition: .7s;
           text-align: center;
+          position: fixed;  
         }
         .nav ul{
           padding-top: 80px;
@@ -175,7 +178,7 @@ a{
 
 
 .top-banner li{
-  width: 31%;
+  width: 33%;
   box-sizing:border-box;
 }
 

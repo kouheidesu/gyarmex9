@@ -66,6 +66,8 @@ a{
     padding: 10px;
 }
 
+
+
 @media screen and (min-width:769px){
     .dorower{
         display: none;
@@ -91,6 +93,7 @@ a{
             background: #eee;
             transition: .7s;
             text-align: center;
+            position: fixed;  
             
           }
           .nav ul{
